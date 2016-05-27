@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1> changing HTML images </h1>
+
+<img id="image1" 
+
+onclick="changeImage()"
+
+src="pic_bulboff.gif"
+
+width="100" height="180">
+
+<p>Click on the bulb to turn it on/off.</p>
+
+<script>
+
+function changeImage() {
+	
+	var image = document.getElementById('image1');
+	
+	if(image.src.match("bulbon")) {
+		image.src = "pic_bulboff.gif";
+	}
+	else {
+		image.src = "pic_bulbon.gif";
+	}
+}
+</script>
+
+</body>
+</html>

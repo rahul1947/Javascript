@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {font-family: Gentium Basic;}
+</style>
+</head>
+
+<body>
+<h2>Learning JavaScript: Output I</h2>
+
+<p>Hello buddy. This code is written by <a href="https://www.linkedin.com/in/rahul-nalawade-3671aabb">Rahul Nalawade.</a></p>
+
+<button type="button" onclick="func1()">Button</button>
+
+<script>
+function func1(){
+	window.alert("Boom!");
+	
+	document.write(2*9);
+}
+
+</script>
+
+<h5>Using document.write() after an HTML document is fully loaded,
+ will delete all existing HTML</h5>
+<button type="button" onclick="document.write(12*9)">Clean and Write</button>
+
+<p><b>Note: </b>The document.write() method should be used only for testing.</p>
+
+</body>
+
+</html>

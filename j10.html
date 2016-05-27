@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {font-family: Gentium Basic;}
+</style>
+</head>
+
+
+<body>
+<h5>typeof</h5>
+<p id="demotype"></p>
+<p id="demoinstance"></p>
+
+<script>
+document.getElementById("demotype").innerHTML = 
+typeof "John" +"<br>"+
+typeof 6.58 +"<br>"+
+typeof false +"<br>"+
+typeof [45,56,12,87] +"<br>"+ 
+typeof {name:"Rahul", age:21};
+
+<hr/>
+document.getElementById("demoinstance").innerHTML = 
+instanceof "John" +"<br>"+
+instanceof 6.58 +"<br>"+
+instanceof false +"<br>"+
+instanceof [45,56,12,87] +"<br>"+ 
+instanceof {name:"Rahul", age:21};
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {font-family: Gentium Basic;}
+</style>
+</head>
+
+
+<body>
+<h2> Learning JavaScript: Objects</h2>
+
+<p>About a person</p>
+<p id="demo"></p>
+
+<script>
+
+var person = {
+	firstName: "Rahul",
+	lastName: "Nalawade",
+	age: 21,
+	fullName: function() {
+		var fullname = 
+		this.firstName + " " + this.lastName;
+		return fullname;
+	}
+};
+
+document.getElementById("demo").innerHTML = person.fullName();
+
+</script>
+
+</body>
+</html>
