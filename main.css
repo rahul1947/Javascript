@@ -1,0 +1,86 @@
+header {
+    background-color:#2B2B2B;
+    color:white;
+    text-align:center;
+    padding:1px;
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+section {
+    width:6.9%;
+    float:left;
+    height: 72px;
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    border-spacing: 50%;
+    font-size: 90%;
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+.alertRed {
+    padding: 10px;
+    padding-top: 5px;
+    background-color: #f44336;
+    color: white;
+}
+.alertRed:hover {background-color: #ff0000;}
+.alertRed:active {
+    background-color:#cc0000;
+    transform: translate(2px,2px);
+}
+
+.alertYellow {
+    padding: 10px;
+    padding-top: 5px;
+    background-color: #ffad33;
+    color: black;
+    font-weight: bold;
+}
+.alertYellow:hover {background-color: #ffff00;}
+.alertYellow:active {
+    background-color:#cccc00;
+    transform: translate(2px,2px);
+}
+
+.alertGreen {
+    padding: 10px;
+    padding-top: 5px;
+    background-color: #66cc66;
+    color: black;
+    font-weight: bold;
+}
+
+.alertGreen:hover {background-color: #00ff00;}
+.alertGreen:active {
+    background-color:#00cc00;
+    transform: translate(2px,2px);
+}
+
+
+.sid {
+    text-align: left;
+    color: white;
+    font-family: gentium basic, serif;
+    font-size: xx-large;
+    position: relative;
+
+}
+
+.counts {
+    text-align: right;
+}
